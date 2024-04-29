@@ -55,10 +55,10 @@ Think of [conda.yaml](conda.yaml) as an equivalent of the requirements.txt, but 
 The project automates the process of :
 1) visiting rotten tomatoes websites
 2) searching for required movie name read from excel file
-3) scrape movie details (tomato score ,audience score, storyline,rating(guideline) ,genres and top 5 critic reviews)
+3) scrape movie details { tomato score ,audience score, storyline,rating ( guideline) , genres and top 5 critic reviews }
 4) save the extracted data into SQLite3 database.
 
 
  ## Usage
- Install rcc and run 'rcc run' on the command line
+ Install rcc and run `rcc run` on the command line
  
