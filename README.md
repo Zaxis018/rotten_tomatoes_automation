@@ -4,7 +4,7 @@ This template leverages the new [Python framework](https://github.com/robocorp/r
 
 The template provides you with the basic structure of a Python project: logging out of the box and controlling your tasks without fiddling with the base Python stuff. The environment contains the most used libraries, so you do not have to start thinking about those right away. 
 
-👉 Other templates are available as well via our tooling and on our [Portal](https://robocorp.com/portal/tag/template)
+👉 Other templates are available as well via our tooling and on the  [Portal](https://robocorp.com/portal/tag/template)
 
 ## Running
 
@@ -41,7 +41,24 @@ Think of [conda.yaml](conda.yaml) as an equivalent of the requirements.txt, but 
 
 > Dive deeper with [these](https://github.com/robocorp/rcc/blob/master/docs/recipes.md#what-is-in-condayaml) resources.
 
+
+
 </details>
 <br/>
 
 > The full power of [rpaframework](https://robocorp.com/docs/python/rpa-framework) -libraries is also available on Python as a backup while we implement the new Python libraries.
+
+
+
+## About the project
+
+The project automates the process of :
+1) visiting rotten tomatoes websites
+2) searching for required movie name read from excel file
+3) scrape movie details (tomato score ,audience score, storyline,rating(guideline) ,genres and top 5 critic reviews)
+4) save the extracted data into SQLite3 database.
+
+
+ ## Usage
+ Install rcc and run 'rcc run' on the command line
+ 
